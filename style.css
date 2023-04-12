@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(218, 218, 218);
+ }
+nav{
+    display: block;
+}
+
+ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+    background:rgb(37, 37, 37);
+    color: white;
+    padding: 0.6rem 1.3rem;
+    border: 0;
+}
+
+body {
+    padding: 3% 5% 0% 5%;
+    
+}
+
+li {
+    border: solid 1px rgb(212, 212, 212);
+    padding: 3%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 1px 1px 1px 1px rgb(135, 135, 135);
+    font-size: 1.8rem;
+background-color: rgb(177, 177, 177);
+}
+
+
+
+li:hover {
+    background-color: black;
+    color: white;
+    border: solid black;
+}
+
+.box-top {
+    box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
+    padding: 0% 5% 0% 5%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 0% 5%;
+    padding: 1.5rem;
+    height: 40%;
+
+
+}
+
+.top-box {
+    box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
+    padding: 0% 5% 0% 5%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 40%;
+    padding: 1.5rem;
+    margin: 0% 5% 0% 5%;
+ width: auto;
+}
+
+.box {
+    text-align: center; box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
+     padding: 0% 2% 0% 2%;
+     font-size: 1rem;
+     width: 20%;
+}
+
+.ph {
+    background-image: url(https://3dnews.ru/assets/external/illustrations/2022/12/13/1078803/photo2a9af3aa95c.jpg);
+    margin: 0% 0% 0% 0.2%;
+   padding: 10% 30%;
+    grid-area: showcase;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 90%;
+}
+
+h1 {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: gray;
+    height: 30%;
+   margin: 1% 0% 1% 0%;
+   color: white;
+   padding: 1%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 0.3% 1% ;
+}
+
+@media screen and (max-width:768px) {
+  .boxes {
+     display: flex;
+     flex-direction: column;
+  }
+}
+
+.btm {
+    background:rgb(37, 37, 37);
+    color: white;
+    padding: 10%;
+}
+
+#sup {
+    margin: 0;
+}
+
+.navigation {
+        border: solid 1px rgb(212, 212, 212);
+        padding: 3%;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        box-shadow: 1px 1px 1px 1px rgb(135, 135, 135);
+        font-size: 1.8rem;
+}
+
+@media screen and (max-width:768px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+img {
+    width: 15%;
+    height: 300px;
+}
+
+
+@media screen and (max-width:768px){
+    img {
+        display: flex;
+        flex-direction: column;
+        width: 89%;
+        justify-content: center;
+        margin: 3% 7%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .whrapper {
+       margin: 7%;
+    }
+    
+}
+
+.info {
+    padding: 5%;
+}
